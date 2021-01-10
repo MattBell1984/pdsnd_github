@@ -22,5 +22,9 @@ README.md
 
 ### Credits
 https://stackoverflow.com/questions/42885332/uncomfortable-output-of-mode-in-pandas-dataframe - mode output info
+
+
 *** Fails when filtering by Day of Week *** - https://knowledge.udacity.com/questions/415205
+
+
 https://stackoverflow.com/questions/6149006/display-a-float-with-two-decimal-places-in-python - Decimal Places
