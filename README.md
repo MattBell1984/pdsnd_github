@@ -1,15 +1,26 @@
 ### Date created
-Include the date you created this project and README file.
+10 Jan 2021
 
 ### Project Title
-Replace the Project Title
+Investigate US Bikeshare data.
 
 ### Description
-Describe what your project is about and what it does
+This project investigates Bikeshare data in 3 US cities - New York City, Chicago
+and Washington.
+
+It asks the user for input to filter the raw data (By city, Month, day), and
+then outputs most popular start, finish station, route, busiest day, month,
+and data on the user where applicable (such as youngest, oldest, average age
+etc.)
 
 ### Files used
-Include the files used
+Python Bikeshare Project Final.py
+chicago.csv
+new-york-city.csv
+washington.csv
+README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://stackoverflow.com/questions/42885332/uncomfortable-output-of-mode-in-pandas-dataframe - mode output info
+*** Fails when filtering by Day of Week *** - https://knowledge.udacity.com/questions/415205
+https://stackoverflow.com/questions/6149006/display-a-float-with-two-decimal-places-in-python - Decimal Places
