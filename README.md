@@ -13,6 +13,9 @@ then outputs most popular start, finish station, route, busiest day, month,
 and data on the user where applicable (such as youngest, oldest, average age
 etc.)
 
+At end of data presentation, the program asks the user if they would like to
+see the raw data 5 lines at a time, and presents it until the user quits. 
+
 ### Files used
 Python Bikeshare Project Final.py
 chicago.csv
