@@ -14,7 +14,6 @@ def get_filters():
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
-        (str) username - name of the person exploring bikeshare data
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
@@ -205,18 +204,15 @@ def raw_data(df):
     """Asking the user if they would like to see the raw data.
     provides raw data to user 5 lines at a time"""
 
-    raw_data_count = 0
+    data = 0
+
     while True:
-        answer = input("Would you like to see the raw data? Please type Yes or No: ").lower()
-        if answer not in ['yes', 'no']:
-            answer = input("Sorry, I didn\'t recognise that. Please type Yes or No: ")
-        elif answer == 'yes':
-            print(df.iloc[raw_data_count : raw_data_count + 5])
-            raw_data_count += 5
-            next_answer = input("Do you want to see more? Yes or No: ").lower()
-            if next_answer == 'no':
-                break
-        elif answer == 'no':
+        answer = input('Would you like to see 5 lines of raw data? Enter yes or no: ')
+        if answer.lower() == 'yes':
+            print(df[data : data+5])
+            data += 5
+
+        else:
             break
 
 
